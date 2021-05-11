@@ -1,0 +1,19 @@
+// noValidate // 
+Form attribute. This is to ensure that we’re disabling HTML5 validations 
+by default and access Constraint API programmatically to check for validations. 
+If we enable HTML5 validations, we have little control of the look and feel of 
+error messages and where we should put it.
+
+// event.preventDefault//
+Discards default behaviors of onSubmit event.
+
+//event.stopPropagation //
+neleidžia perduoti eventų į tėvinį elementą https://www.w3schools.com/jquery/event_stoppropagation
+
+// event.persist()//
+If you want to access the event properties in an asynchronous way, you should 
+call event.persist() on the event, which will remove the synthetic event from 
+the pool and allow references to the event to be retained by user code.
+
+//this.setState({ validated: true }); //
+ nustato ar forma turi būti validuojama
